@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
     <link rel="icon" type="image/svg+xml" href="/auth/logo-DT4PA2fC.png">
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>TradeFortuneSphere</title>
+    <title>Cytopiacapital</title>
     <style>
 
     </style>
@@ -51,7 +51,7 @@
                 <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto px-4 py-4">
                     <div id="nav-toggle" class="flex items-center gap-x-2"><img src="/auth/logo-DT4PA2fC.png"
                             class="h-8 p-1.5 bg-gray-700/50 rounded-[10px] cursor-pointer" alt="BNB Chain Logo"><span
-                            class="self-center text-[20px] font-medium whitespace-nowrap text-gray-200 cursor-pointer">TradeFortuneSphere</span>
+                            class="self-center text-[20px] font-medium whitespace-nowrap text-gray-200 cursor-pointer">Cytopiacapital</span>
                     </div>
                     <div class="flex items-center md:order-2 space-x-3 md:space-x-0 rtl:space-x-reverse">
                         <a class="flex text-[20px] md:me-0 z-10" href="/contact/support">
@@ -90,7 +90,7 @@
                     <div class="flex-auto">
                         <p class="text-[11px] text-gray-400">REFERRAL ID: Ref-mxquvw2j173da3 <i
                                 class="fi fi-rr-copy-alt cursor-pointer"></i></p>
-                        <h1 class="font-bold mb-1">Blues Wayne
+                        <h1 class="font-bold mb-1">{{Auth::user()->full_name}}
                         </h1>
                         <p class="text-[10px] text-red-400 bg-red-400/25 w-[50px] text-center rounded-[3px]">
                             Unverified</p>
@@ -131,21 +131,21 @@
                             <!-- <a class="flex items-center p-2 rounded-lg text-white hover:bg-gray-700 group" href="/commissions">
                                 <i class="fi fi-rr-tax-alt mt-1"></i><span class="ms-3 text-gray-400">Commissions</span>
                             </a> -->
-                            <!-- <a class="flex items-center p-2 rounded-lg text-white hover:bg-gray-700 group" href="https://app.tradefortunesphere.cc/certificate">
+                            <!-- <a class="flex items-center p-2 rounded-lg text-white hover:bg-gray-700 group" href="https://app.Cytopiacapital.cc/certificate">
                                 <i class="fi fi-rr-receipt mt-1"></i><span class="ms-3 text-gray-400">Certificate</span></a> -->
                             <!-- <a class="flex items-center p-2 rounded-lg text-white hover:bg-gray-700 group" href="#">
                                 <i class="fi fi-rr-user-add mt-1"></i><span class="ms-3 text-gray-400">Referral</span></a> -->
                             <a class="flex items-center p-2 rounded-lg text-white hover:bg-gray-700 group"
-                                href="https://app.tradefortunesphere.cc/kyc-center">
+                                href="https://app.Cytopiacapital.cc/kyc-center">
                                 <i class="fi fi-rr-id-badge mt-1"></i>
                                 <span class="ms-3 text-gray-400">KYC Center</span>
                             </a>
                             <a class="flex items-center p-2 rounded-lg text-white hover:bg-gray-700 group"
-                                href="https://app.tradefortunesphere.cc/settings">
+                                href="https://app.Cytopiacapital.cc/settings">
                                 <i class="fi fi-rr-settings mt-1"></i><span class="ms-3 text-gray-400">
                                     Settings</span></a>
                             <!-- Add this form somewhere in your Blade template -->
-                            <form id="logout-form" action="https://app.tradefortunesphere.cc/logout" method="POST"
+                            <form id="logout-form" action="https://app.Cytopiacapital.cc/logout" method="POST"
                                 style="display: none;">
                                 <input type="hidden" name="_token" value="B4WT0ov5r6ZFMNL3kZqizewI950ssW0KbxxL1lSX">
                             </form>
@@ -181,7 +181,7 @@
                     </h2>
                     <p class="text-gray-300 mb-6">Your account is not verified. Complete KYC to unlock all features and
                         enhance your trading experience.</p>
-                    <a href="https://app.tradefortunesphere.cc/kyc-center"
+                    <a href="https://app.Cytopiacapital.cc/kyc-center"
                         class="bg-yellow-400 hover:bg-yellow-500 text-gray-900 font-bold py-2 px-4 rounded inline-block mb-4">Complete
                         KYC Now</a>
                     <button id="closeKycPopup" class="text-gray-400 hover:text-white mt-4">Close</button>

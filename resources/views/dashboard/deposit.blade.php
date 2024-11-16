@@ -159,7 +159,7 @@
                     <div class="flex-auto">
                         <p class="text-[11px] text-gray-400">REFERRAL ID: Ref-mxquvw2j173da3 <i
                                 class="fi fi-rr-copy-alt cursor-pointer"></i></p>
-                        <h1 class="font-bold mb-1">Blues Wayne
+                        <h1 class="font-bold mb-1">{{Auth::user()->full_name}}
                         </h1>
                         <p class="text-[10px] text-red-400 bg-red-400/25 w-[50px] text-center rounded-[3px]">
                             Unverified</p>
